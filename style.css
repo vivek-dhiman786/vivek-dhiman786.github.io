@@ -107,3 +107,22 @@ body.light-mode p,
 body.light-mode a {
     color: black !important;
 }
+body.light-mode {
+    background: white !important;
+}
+
+body.light-mode .hero,
+body.light-mode nav,
+body.light-mode section,
+body.light-mode footer {
+    background: white !important;
+    background-image: none !important;
+}
+
+body.light-mode h1,
+body.light-mode h2,
+body.light-mode h3,
+body.light-mode p,
+body.light-mode a {
+    color: black !important;
+}
