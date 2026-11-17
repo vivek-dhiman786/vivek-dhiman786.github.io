@@ -47,3 +47,12 @@ footer p{margin-top:25px;color:#666;font-size:13px}
 @keyframes fillBar {
     from { width: 0; }
 }
+
+/* Hover Animation */
+.skill-card, .project-card {
+    transition: transform 0.3s ease;
+}
+
+.skill-card:hover, .project-card:hover {
+    transform: translateY(-10px);
+}
