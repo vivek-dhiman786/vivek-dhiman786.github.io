@@ -5,7 +5,7 @@ nav{display:flex;justify-content:space-between;align-items:center;padding:20px 4
 .logo{font-size:26px;font-weight:900;letter-spacing:1px}
 .links a{color:#ccc;text-decoration:none;margin-left:25px;font-weight:600}
 .links a:hover{color:#00ff88}
-.hero{text-align:center;padding:90px 20px;background:linear-gradient(180deg,#111,#0a0a0a)}
+.hero{text-align:center;padding:90px 20px;background:linear-gradient(180deg,#111,#0a0a0a)} 
 .hi{color:#00ff88;font-weight:700;font-size:18px}
 .hero h1{font-size:60px;margin:10px 0}
 .hero h2{color:#aaa;font-weight:400}
