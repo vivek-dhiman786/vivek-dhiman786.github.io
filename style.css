@@ -29,3 +29,21 @@ nav{display:flex;justify-content:space-between;align-items:center;padding:20px 4
 footer{text-align:center;padding:60px 20px;background:#111}
 footer h2{margin-bottom:20px}
 footer p{margin-top:25px;color:#666;font-size:13px}
+
+/* Animation */
+.hero h1 {
+    animation: fadeUp 1s ease;
+}
+
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.skill-fill {
+    animation: fillBar 1.5s ease forwards;
+}
+
+@keyframes fillBar {
+    from { width: 0; }
+}
