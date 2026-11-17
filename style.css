@@ -69,3 +69,22 @@ footer p{margin-top:25px;color:#666;font-size:13px}
     text-decoration: none;
     font-weight: bold;
 }
+.mode-btn {
+    background: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+body.light-mode {
+    background: white;
+    color: black;
+}
+
+body.light-mode .card,
+body.light-mode .skill-box {
+    background: #f0f0f0;
+    color: black;
+}
