@@ -1,34 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Vivek Dhiman - Portfolio</title>
-<style>
-body{font-family:Arial;background:linear-gradient(135deg,#0f0c29,#302b63,#24243e);color:white;text-align:center;padding:20px;margin:0}
-img{width:200px;height:200px;object-fit:cover;border-radius:50%;border:4px solid #00ffcc;margin-top:20px}
-h1{font-size:42px;margin:10px}
-.tag{color:#00ffcc;font-size:18px}
-.box{background:rgba(255,255,255,0.1);padding:25px;border-radius:20px;max-width:600px;margin:20px auto}
-.btn{display:inline-block;background:#25D366;color:white;padding:12px 25px;border-radius:25px;text-decoration:none;font-weight:bold;margin:8px}
-.btn2{background:#E1306C}
-.btn3{background:#00ffcc;color:black}
-</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vivek Dhiman | Web Developer</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<img src="WhatsApp Image 2026-11-17 at 19.57.26.jpeg">
-<h1>Vivek Dhiman</h1>
-<p class="tag">From Mandi, Himachal Pradesh | Web Developer</p>
-<div class="box">
-<h2>About Me</h2>
-<p>Hi! I am Vivek. I am learning Web Development and building my career in Tech.</p>
-<h2>My Skills</h2>
-<p>HTML | CSS | GitHub | Learning JavaScript</p>
-</div>
-<div class="box">
-<h2>Contact Me</h2>
-<a class="btn" href="https://wa.me/917876362780">WhatsApp Me</a><br>
-<a class="btn btn2" href="https://instagram.com/vivek-dhiman786">Instagram</a><br>
-<a class="btn btn3" href="https://github.com/vivek-dhiman786">Visit My GitHub</a>
-</div>
-<p>© 2026 Vivek Dhiman</p>
+
+<nav>
+  <div class="logo">VIVEK<span>.</span></div>
+  <div class="links">
+    <a href="#home">Home</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<section id="home" class="hero">
+  <p class="hi">👋 Hello, I'm</p>
+  <h1>VIVEK <span>DHIMAN</span></h1>
+  <h2>Web Developer from Hamirpur, HP</h2>
+  <p class="desc">Mai clean aur fast websites banata hun. HTML, CSS me haath saaf hai, ab JavaScript pe kaam chal raha hai.</p>
+  <div class="btns">
+    <a class="btn green" href="#projects">My Work ↓</a>
+    <a class="btn white" href="https://wa.me/919882644536">Hire Me</a>
+  </div>
+</section>
+
+<section id="skills" class="section">
+  <h2>My <span>Skills</span></h2>
+  <div class="skill-box">
+    <p>HTML <span>90%</span></p>
+    <div class="bar"><div class="fill html"></div></div>
+    <p>CSS <span>85%</span></p>
+    <div class="bar"><div class="fill css"></div></div>
+    <p>JavaScript <span>40%</span></p>
+    <div class="bar"><div class="fill js"></div></div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <h2>My <span>Projects</span></h2>
+  <div class="grid">
+    <div class="card">
+      <h3>🍕 Zomato Clone</h3>
+      <p>HTML + CSS se banaya hua food website clone.</p>
+      <span>HTML • CSS</span>
+    </div>
+    <div class="card">
+      <h3>💼 Portfolio Website</h3>
+      <p>Apni khud ki personal portfolio website.</p>
+      <span>HTML • CSS</span>
+    </div>
+    <div class="card">
+      <h3>🚀 Coming Soon</h3>
+      <p>Next project JavaScript me banega. Stay tuned.</p>
+      <span>JS • Soon</span>
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <h2>Let's Work Together</h2>
+  <a class="btn green" href="https://instagram.com/vivek_dhiman786">Instagram</a>
+  <a class="btn white" href="https://wa.me/919882644536">WhatsApp</a>
+  <p>Made by Vivek Dhiman ❤️ | Mandi, Himachal Pradesh</p>
+</footer>
+
 </body>
 </html>
