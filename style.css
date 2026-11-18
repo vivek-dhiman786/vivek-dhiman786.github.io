@@ -154,3 +154,13 @@ body.light-mode a {
     padding-right: 12px !important;
   }
 }
+/* Nav saaf karne ke liye */
+@media (max-width: 768px) {
+  nav {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 12px 20px !important;
+    padding: 15px 10px !important;
+  }
+}
